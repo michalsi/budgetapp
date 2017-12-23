@@ -46,9 +46,9 @@ logging:
   loggers:
 
     # Sets the level for 'io.budgetapp' to DEBUG.
-    io.budgetapp: DEBUG
+    io.budgetapp: INFO
 
-    org.hibernate.SQL: ALL
+    org.hibernate.SQL: INFO
 
   appenders:
     - type: console
